@@ -1,11 +1,10 @@
 <h1> Library API </h1>
 
-<img src="https://i.pinimg.com/originals/e2/f2/15/e2f21593023da9958fab1dc0302a709d.gif" height="400"/>
+![e2f21593023da9958fab1dc0302a709d](https://user-images.githubusercontent.com/85764731/161664310-28847a0f-a5b9-4af7-9eb2-9abdfb93fbf8.gif)
 
 ### It is a web application that peforms CRUD operations.
 
 ## Some fields in main Model are:
-
 + codigo
 + nome
 + preco
@@ -30,6 +29,15 @@
 
 ```bash
 $ npm install
+```
+
+## Configuration
+In the project root create an .env file for the database connection and use your local environments
+```bash
+# Your MySql User
+USER=user
+# Your MySql Password
+PASSWORD=123
 ```
 
 ## Running the app
